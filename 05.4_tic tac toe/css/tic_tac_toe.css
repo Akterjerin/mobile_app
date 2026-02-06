@@ -132,6 +132,14 @@ header {
     margin-top: 8px;
     text-align: left;
 }
+#btn99{
+    padding: 0.5em;
+    border-radius: 50px;
+    color: rgb(94, 4, 127);
+    font-size: 1.5em;
+    background: #1e1e1e;
+    cursor: pointer;
+}
 
 footer>p {
     position: absolute;

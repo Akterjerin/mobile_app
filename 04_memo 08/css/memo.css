@@ -49,12 +49,12 @@ td {
 /* 見出し                                              */
 /*******************************************************/
 h1 {
-  color: rgb(2, 17, 91);
+  color: rgb(22, 60, 247);
 }
 
 h2 {
   /* color: grey; */
-  color: rgb(244, 10, 154);
+  color: rgba(19, 1, 2, 0.843);
   font-weight: 1000;
 }
 /* SweetAlert */
@@ -81,7 +81,7 @@ h2 {
 label {
   position: absolute;
   left: 0.5em;
-  color: rgb(95, 10, 242);
+  color: rgba(86, 243, 72, 0.869);
   font-weight: 1000;
 }
 
@@ -90,7 +90,7 @@ label::after {
   padding: 0px 6px 0px 6px;
   border-radius: 4px;
   font-size: 0.6em;
-  color:  whitesmoke;
+  color:  rgb(248, 243, 243);
   background-color: rgb(220, 17, 17);
   content: "必須";
 }
@@ -102,7 +102,7 @@ textarea {
 }
 
 textarea::placeholder {
-  color: #46aef7;
+  color: #6cb9f0;
 }
 
 .btn-area {
@@ -137,7 +137,7 @@ table th, table td{
   text-align: center;
 }
 table tr{
-  background: #46aef7;
+  background: #5c9fd0;
 }
 .width10 {
   width: 10%;
@@ -194,6 +194,4 @@ table tr{
   background: rgb(73, 49, 160);
   cursor: pointer;
   /*カーソルをポインターの形（かたち）にする*/
-
 }
-
