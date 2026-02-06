@@ -24,7 +24,7 @@ body{
     sans-serif;
     text-align: center;
     background-image: url(../img/background.jpg);
-    background-size: cover;
+    background-size: auto;
     overflow: hidden;
 }
 
@@ -132,6 +132,39 @@ a:hover{
     width: auto;
     height: 6em;
     overflow: hidden;
+}
+
+.fade-in {
+    animation: fadein 1.5s ease-in-out forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+.item01 img,.item02 img {
+    transition: transform 0.3s ease;
+}
+.item01 img:hover,
+.item02 img:hover {
+    transform: scale(1.1);
+}
+#btn99{
+    padding: 0.5em;
+    border-radius: 50px;
+    color: rgb(255, 0, 111);
+    font-size: 1.5em;
+    background: #1e1e1e;
+    cursor: pointer;
 }
 
 /*****************************/
